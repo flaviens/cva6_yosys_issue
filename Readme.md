@@ -9,12 +9,12 @@ This repo, backed by a docker image, is a minimal example to reproduce the issue
 This example will show `TEST FAILED`, and creates trace_instrumented.vcd:
 
 ```
-make run_instrumented
+make -C cva6_yosys_issue run_instrumented
 ```
 
 
 This example will show `TEST SUCCEEDED`, and creates trace_vanilla.vcd
 
 ```
-make run_vanilla
+make -C cva6_yosys_issue run_vanilla
 ```
